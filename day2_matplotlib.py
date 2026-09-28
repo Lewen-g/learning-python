@@ -14,7 +14,7 @@ plt.rcParams.update({
 })
 
 # 2. 画图
-
+plt.figure()
 plt.plot(t, y_sin, label="sin(t)", color="blue", linewidth=2)
 plt.plot(t, y_cos, label="cos(t)", color="orange", linestyle="--", linewidth=2)
 
