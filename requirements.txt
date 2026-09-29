@@ -1,0 +1,10 @@
+# learning-python 的直接依赖
+#
+# 说明：这里只列直接使用的包。numpy 虽然是直接依赖，但它同时被 matplotlib
+# 依赖，所以不会出现在 `pip list --not-required` 的输出里，需要手动补上。
+#
+# 想导出包含全部传递依赖的完整清单：pip freeze > requirements.lock.txt
+
+numpy==2.5.3
+matplotlib==3.11.2
+jupyter==1.1.1
