@@ -29,3 +29,5 @@ print("最大值:", a.max())
 t = np.linspace(0, 10, 100)   # 0到10之间100个点
 print("\nlinspace 前5个:", t[:5])
 print("linspace 后5个:", t[-5:])
+
+print("hello from DSH")
