@@ -1,4 +1,13 @@
 .venv/
+.venv-1/
 __pycache__/
 *.pyc
 .DS_Store
+
+# Jupyter 检查点缓存
+.ipynb_checkpoints/
+
+# 个人规划与成长档案：本仓库是公开仓库（github.com/Lewen-g/learning-python），
+# 不要在未确认的情况下提交这些个人内容。
+personal-growth/
+_extracted/
