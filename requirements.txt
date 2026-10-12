@@ -1,9 +1,14 @@
-# learning-python 的直接依赖
+# Direct dependencies for learning-python.
 #
-# 说明：这里只列直接使用的包。numpy 虽然是直接依赖，但它同时被 matplotlib
-# 依赖，所以不会出现在 `pip list --not-required` 的输出里，需要手动补上。
+# Note: numpy is listed here even though matplotlib also depends on it, so it
+# does NOT appear in `pip list --not-required` output. That command only shows
+# packages which nothing else depends on.
 #
-# 想导出包含全部传递依赖的完整清单：pip freeze > requirements.lock.txt
+# Full pinned list including transitive deps: pip freeze > requirements.lock.txt
+#
+# Keep this file ASCII-only: pip reads requirement files using the system
+# locale encoding on Windows (GBK/cp936 on Chinese systems), so non-ASCII
+# characters here break `pip install -r` with a UnicodeDecodeError.
 
 numpy==2.5.3
 matplotlib==3.11.2
