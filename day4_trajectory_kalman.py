@@ -123,7 +123,7 @@ plt.rcParams.update({
     "font.size": 11,
     "axes.grid": True,
     "grid.alpha": 0.3,
-    "font.sans-serif": ["Microsoft YaHei", "SimHei", "DejaVu Sans"],
+    "font.sans-serif": ["Microsoft YaHei", "SimHei", "Noto Sans CJK SC", "WenQuanYi Zen Hei", "DejaVu Sans"],
     "axes.unicode_minus": False,
 })
 
